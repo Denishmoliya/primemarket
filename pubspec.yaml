@@ -81,9 +81,11 @@ flutter:
   fonts:
     - family: Schyler
       fonts:
-        - asset: fonts/Schyler-Regular.ttf
-        - asset: fonts/Schyler-Italic.ttf
-          style: italic
+        - asset: fonts/coolvetica compressed hv.otf
+        - asset: fonts/coolvetica condensed rg.otf
+        - asset: fonts/coolvetica crammed rg.otf
+        - asset: fonts/coolvetica rg.otf
+        - asset: fonts/coolvetica rg it.otf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
