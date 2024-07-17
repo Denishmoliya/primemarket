@@ -12,7 +12,11 @@ class _splashscreenState extends State<splashscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(),
+      body: Column(
+        children: [
+
+        ],
+      ),
     );
   }
 }
