@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class splashscreen extends StatefulWidget {
   const splashscreen({Key? key}) : super(key: key);
@@ -10,6 +11,6 @@ class splashscreen extends StatefulWidget {
 class _splashscreenState extends State<splashscreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
