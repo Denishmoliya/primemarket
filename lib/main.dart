@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
           title: 'Sizer',
           theme: TAppTheme.lightTheme,
           darkTheme: TAppTheme.darkTheme,
-
         );
       },
     );
