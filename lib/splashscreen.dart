@@ -1,9 +1,7 @@
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:primemarket/homepage.dart';
+import 'package:primemarket/main.dart';
 
 
 class splashscreen extends StatefulWidget {
@@ -22,7 +20,7 @@ class _splashscreenState extends State<splashscreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => homepage(),
+            builder: (context) => MyApp(),
           ));
     });
   }
@@ -31,7 +29,7 @@ class _splashscreenState extends State<splashscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          color: Colors.blue,
+          color: Color(0xff5C77FF),
           child: Center(
               child: Image(
             image: AssetImage("assets/logos/e.jpg"),
