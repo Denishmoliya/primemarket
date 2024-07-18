@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:primemarket/splashscreen.dart';
+import 'package:primemarket/utils/theme/theme.dart';
+import 'package:sizer/sizer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,18 +13,32 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Prime Market',
-      themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: TextTheme(
-          bodyLarge: TextStyle(fontSize: 14,color: Colors.green)
-        ),
-        primarySwatch: Colors.blue,
-      ),
-      darkTheme: ThemeData(),
-      debugShowCheckedModeBanner: false,
-      home: const splashscreen(),
+    return Sizer(
+      builder: (context, orientation, deviceType) {
+        return MaterialApp(
+          themeMode: ThemeMode.system,
+          debugShowCheckedModeBanner: true,
+          title: 'Sizer',
+          theme: TAppTheme.lightTheme,
+          darkTheme: TAppTheme.darkTheme,
+
+        );
+      },
     );
   }
 }
+
+/*
+return MaterialApp(
+title: 'Prime Market',
+themeMode: ThemeMode.system,
+theme: ThemeData(
+textTheme: TextTheme(
+bodyLarge: TextStyle(fontSize: 14,color: Colors.green)
+),
+primarySwatch: Colors.blue,
+),
+darkTheme: ThemeData(),
+debugShowCheckedModeBanner: false,
+home: const splashscreen(),
+);*/
