@@ -80,13 +80,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Schyler
+    - family: coolvetica
       fonts:
-        - asset: fonts/coolvetica compressed hv.otf
-        - asset: fonts/coolvetica condensed rg.otf
-        - asset: fonts/coolvetica crammed rg.otf
-        - asset: fonts/coolvetica rg.otf
-        - asset: fonts/coolvetica rg it.otf
+        - asset: assets/fonts/coolvetica compressed hv.otf
+        - asset: assets/fonts/coolvetica condensed rg.otf
+        - asset: assets/fonts/coolvetica crammed rg.otf
+        - asset: assets/fonts/coolvetica rg.otf
+        - asset: assets/fonts/coolvetica rg it.otf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
