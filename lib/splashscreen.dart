@@ -32,7 +32,7 @@ class _splashscreenState extends State<splashscreen> {
           color: Color(0xff5C77FF),
           child: Center(
               child: Image(
-            image: AssetImage("assets/logos/primemarjet-logo.jpg"),
+            image: AssetImage("assets/logos/primemarket-logo.jpg"),
             fit: BoxFit.cover,
           ))),
     );
