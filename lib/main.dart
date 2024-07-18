@@ -27,18 +27,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-/*
-return MaterialApp(
-title: 'Prime Market',
-themeMode: ThemeMode.system,
-theme: ThemeData(
-textTheme: TextTheme(
-bodyLarge: TextStyle(fontSize: 14,color: Colors.green)
-),
-primarySwatch: Colors.blue,
-),
-darkTheme: ThemeData(),
-debugShowCheckedModeBanner: false,
-home: const splashscreen(),
-);*/
