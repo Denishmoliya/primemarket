@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:primemarket/app.dart';
 import 'package:primemarket/main.dart';
 
 
@@ -20,7 +21,7 @@ class _splashscreenState extends State<splashscreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => MyApp(),
+            builder: (context) => App(),
           ));
     });
   }
